@@ -101,4 +101,4 @@ if st.button("🔄 Generate Fractal", type="primary"):
             img = generate_newton_fractal(
                 formula, max_iter, raw_eps, width=600, height=520
             )
-            st.image(img, use_container_width=True, caption=f"Newton
+            st.image(img, use_container_width=True, caption=f"Newton Fractal: {formula}")
